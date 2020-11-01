@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap");
+div {
+  transition: background 200ms flow;
+}
+
+#app {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  font-family: 'Crimson Text', serif;
+}
+#app.Col2 {
+  background: linear-gradient(to right, #ffafbd, #ffc3a0);
+}
+#app.Col3 {
+  background: linear-gradient(to right, #a1c4fd, #c2e9fb);
+}
+#app.Col4 {
+  background: linear-gradient(to right, #fdfcfb, #e2d1c3);
+}
+#app.Col5 {
+  background: linear-gradient(to right, #434343, #000000);
+}
+#app.Col6 {
+  background: linear-gradient(to right, #29323c, #485563);
+}
+
+#quote-box {
+  border-radius: 5px;
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  width: 70%;
+  padding: 40px 50px;
+  display: table;
+  background-color: #fff;
+}
+
+#quote-main {
+  font-size: 200%;
+}
+#quote-main #author {
+  text-align: right;
+  font-size: 0.9em;
+  font-style: italic;
+}
